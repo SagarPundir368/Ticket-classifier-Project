@@ -33,6 +33,7 @@ streamlit run app.py
 
 ## Results
 Model comparison table
+![alt text](image.png)
 
 ## Future Work
 - Embeddings-based models
