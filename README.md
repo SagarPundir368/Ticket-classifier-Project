@@ -10,6 +10,14 @@ Classifies customer complaints into predefined categories using NLP and ML.
 - Confidence-aware predictions
 - Interactive Streamlit dashboard
 
+## Data Versioning
+This project uses DVC to version large datasets.
+To download the data locally:
+```bash
+pip install dvc
+dvc pull
+```
+
 ## Tech Stack
 - Python
 - scikit-learn

@@ -20,3 +20,7 @@ streamlit
 langchain
 langchain-ollama
 python-dotenv
+
+## DATA VERSIONING
+dvc
+dvc_s3

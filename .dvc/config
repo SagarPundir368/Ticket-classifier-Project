@@ -1,0 +1,7 @@
+[core]
+    remote = dagshub
+['remote "dagshub"']
+    url = https://dagshub.com/SagarPundir368/Ticketclassifier.dvc
+    auth = basic
+    user = SagarPundir368
+    password = d3a6e203a55d1c92e65018691a05896f7f82eadc
