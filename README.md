@@ -69,7 +69,7 @@ After labeling topics:
 
 ---
 
-## 🤖 Models Used (Note:- RF,DT & Naive Bayes's code is Excluded from the notebook as it just increase code execution time. )
+## 🤖 Models Used 
 
 - Logistic Regression  
 - Linear Support Vector Classifier (Linear SVC)  
@@ -80,18 +80,21 @@ After labeling topics:
 
 ---
 
+[!IMPORTANT]
+**Model Exclusion:** Random Forest, Decision Tree, and Naive Bayes have been excluded to reduce notebook execution time and prioritize more efficient classifiers like Logistic Regression and Linear SVC.
+
 ## 📊 Model Performance Comparison
 
 Evaluation was done using **Stratified K-Fold Cross Validation** and **Weighted F1-score**.
 
 | Model | CV F1 Score | Test F1 Score |
 |------|------------|---------------|
-| **Logistic Regression** | **0.9118** | **0.9136** |
-| Linear SVC | 0.9065 | 0.9116 |
-| XGBoost | 0.9056 | 0.9074 |
-| Random Forest | 0.8434 | 0.8403 |
-| Decision Tree | 0.7830 | 0.7773 |
-| Naive Bayes | 0.7781 | 0.7756 |
+| **Logistic Regression** | **0.91** | **0.91** |
+| Linear SVC | 0.90 | 0.91 |
+| XGBoost | 0.90 | 0.90 |
+| Random Forest | 0.84 | 0.84 |
+| Decision Tree | 0.78 | 0.77 |
+| Naive Bayes | 0.77 | 0.77 |
 
 ✅ **Final Selected Model:** Logistic Regression
 
@@ -117,35 +120,29 @@ Run the app using:
 streamlit run app.py
 ```
 
-### 📁 Project Structure
-
+### 📂 Project Structure
+```text
 Ticketclassifier/
-│
-├── .git/
-├── .dvc/
-├── Artifacts/                 # Saved ML pipelines & artifacts
-├── data/                      # DVC-tracked datasets
-├── notebooks/                 # Data preprocessing & training notebooks
-├── app.py                     # Streamlit app (main)
-├── app_simple.py              # Minimal UI version
-├── requirements.txt
-├── README.md
-└── image.png                  # Model score visualizations
+├── .git/                 # Git configuration
+├── .dvc/                 # DVC configuration
+├── Artifacts/            # Saved ML pipelines & artifacts
+├── data/                 # DVC-tracked datasets
+├── notebooks/            # Data preprocessing & training notebooks
+├── app.py                # Streamlit app (main)
+├── app_simple.py         # Minimal UI version
+├── requirements.txt      # Project dependencies
+├── README.md             # Project documentation
+└── image.png             # Model score visualizations
+```
 
 📦 Tech Stack
 
 - Python
-
 - scikit-learn
-
 - NMF (Topic Modeling)
-
 - Streamlit
-
 - DVC
-
 - DagsHub
-
 - Joblib
 
 ## 🔁 Reproducibility (DVC Workflow)
@@ -157,28 +154,22 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 📈 Key Learnings
+### 📈 Key Learnings
 
 - Topic modeling helps understand data before labeling
-
 - Logistic Regression is a strong baseline for text classification
-
 - DVC enables reproducible ML pipelines
-
 - Confidence scores are critical in real-world support systems
 
-## 🚀 Future Improvements
+### 🚀 Future Improvements
 
 - Use semantic embeddings (Sentence Transformers / LLM embeddings)
-
 - Auto-generate topic labels using LLMs
-
 - Add active learning for low-confidence predictions
-
 - Extend to multi-domain ticket classification
 
-## 👤 Author
+### 👤 Author
 
 **Sagar Pundir**
-BSc (Hons) Data Science & AI
-Interested in NLP, ML systems, and production AI workflows
+- BSc (Hons) Data Science & AI
+- Interested in NLP, ML systems, and production AI workflows
