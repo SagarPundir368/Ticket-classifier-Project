@@ -1,0 +1,23 @@
+## FOR TRAINING AND DEVELOPMENT PURPOSE:-
+
+## TEXT PREPROCESSING AND VISUALIZATION
+pandas
+numpy
+matplotlib
+seaborn
+ipykerneL
+plotly
+
+## SKLEARN AND NLP
+nltk
+spacy
+scikit-learn
+xgboost
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
+nbformat
+wordcloud
+streamlit
+
+## DATA VERSIONING
+dvc
+dvc_s3

@@ -1,26 +1,7 @@
-## TEXT PREPROCESSING AND VISUALIZATION
+## FOR DEPLOYMENT PURPOSE
+
+streamlit
+scikit-learn
 pandas
 numpy
-matplotlib
-seaborn
-ipykerneL
-plotly
-
-## SKLEARN AND NLP
-nltk
-spacy
-scikit-learn
-xgboost
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
-nbformat
-wordcloud
-streamlit
-
-## EMBEDDING PURPOSE
-langchain
-langchain-ollama
-python-dotenv
-
-## DATA VERSIONING
-dvc
-dvc_s3
+joblib
